@@ -1,12 +1,15 @@
 # JavaScript
-#### Basics 
+#### Basics 01_01.md
 • What is JavaScript?\
 • Key Concepts\
 • Components\
 • Web browsers\
 • Create alert pop-up\
-• Basic arithmetic\
+• Basic arithmetic
 
-#### Numbers and Math
+#### Numbers and Math 02_01.md
 • Operation presedence\
-• Calculate rate (%)\
+• Calculate rate (%)
+• Rounding
+
+### Strings 03_01.md
