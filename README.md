@@ -15,3 +15,4 @@
 ### Strings 03_01.md
 • Strings\
 • Concatenation\
+• typeof
