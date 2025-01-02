@@ -13,7 +13,18 @@
       border-radius: 2px;
       cursor: pointer;
       margin-right: 8px;
+      transition: opacity 0.15s;
     }
+    /* Psuedo Class*/
+    /* It turns green when the mouse hover to the button*/
+    .subscribe-btn:hover {
+      opacity: 0.8; /* elements fade-out*/
+    }
+    /* It turns Blue when the button was clicked*/
+    .subscribe-btn:active {
+      opacity: 0.4;
+    }
+
     .join-btn {
       background-color: white;
       color: rgb(41, 118, 211);
@@ -24,7 +35,17 @@
       width: 62px;
       border-radius: 2px;
       cursor: pointer;
+      transition: background-color 0.15s,
+       color 1s;
     }
+    .join-btn:hover {
+      background-color: rgb(41, 118, 211);
+      color: white;
+    }
+    .join-btn:active {
+      opacity: 0.7;
+    }
+
     .tweet-btn {
       background-color: rgb(2, 158, 255);
       color: white;
@@ -36,6 +57,10 @@
       font-size: 15px;
       cursor: pointer;
       margin-left: 8px;
+      transition: box-shaow 0.15s;
+    }
+    .tweet-btn:hover {
+      box-shadow: 5px 5px 10px rgba(0 , 0, 0 , 0.15);
     }
   </style>
   <title>Button Exercise</title>
