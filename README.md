@@ -16,3 +16,9 @@
 • Strings\
 • Concatenation\
 • typeof
+• Coersion
+• String (Escape character)
+• template string
+
+### HTML CSS Review, console.log 04_01.md
+
